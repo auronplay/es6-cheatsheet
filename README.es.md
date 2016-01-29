@@ -59,6 +59,8 @@ console.log(x);
 
 let x = 'hi'; // ReferenceError: x is not defined
 ```
-
+>**Mejores practicas** Deja las declaraciones `var` dentro de código heredado paradenotar 
+que debe ser refactorizado cuidadosamente. Cuando trabaje en un nuevo código, use `let` para las variables que van
+a cambiar su valor con el tiempo y `const` para variables que no pueden ser reasignadas.
 
 
