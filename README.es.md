@@ -65,5 +65,6 @@ heredado paradenotar que debe ser refactorizado cuidadosamente. Cuando
 trabaje en un nuevo código, use `let` para las variables que van
 a cambiar su valor con el tiempo y `const` para variables que no pueden ser reasignadas.
 
-<sup>[(back to table of contents)](#table-of-contents)</sup>
+<sup>[(regresar a la tabla de contenidos)](#tabla-de-contenidos)</sup>
 
+# Reemplazando IIFEs con bloques.
