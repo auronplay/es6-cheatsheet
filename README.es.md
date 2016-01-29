@@ -52,14 +52,14 @@ getFood(false); // 'Meow Mix'
 ```
 Este cambio en el comportamiento destaca que tenemos que tener cuidado con la refactorización de codigo heredado que utiliza `var`.A ciegas reemplazando instancias de ` var` con `let` puede conducir a un comportamiento inesperado.
 
->**Nota** `let` y `const` son bloques de ambito  Por lo tanto , haciendo referencia a los identificadores de bloque de ámbito antes de que sean definidos producirá un `ReferenceError`. 
+>**Nota**: `let` y `const` son bloques de ambito  Por lo tanto , haciendo referencia a los identificadores de bloque de ámbito antes de que sean definidos producirá un `ReferenceError`. 
 
 ```javascript
 console.log(x);
 
 let x = 'hi'; // ReferenceError: x is not defined
 ```
->**Mejores practicas** Deja las declaraciones `var` dentro de código heredado paradenotar 
+>**Mejores practicas**: Deja las declaraciones `var` dentro de código heredado paradenotar 
 que debe ser refactorizado cuidadosamente. Cuando trabaje en un nuevo código, use `let` para las variables que van
 a cambiar su valor con el tiempo y `const` para variables que no pueden ser reasignadas.
 
